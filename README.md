@@ -1,3 +1,3 @@
-Las reglas de carga se configuran desde la clase "panelSolar", donde se puede configurar la cantidad que se puede otorgar, y el de consumo es más que todo en la de "navío" donde la velocidad determina el consumo de la bateria.
+Las reglas de carga se configuran desde la clase "panelSolar", donde se puede configurar la cantidad que se puede otorgar, se recibe alrededor de 1 a 6 watts por segundo y eso se va sumando y al final el controlador de energía reparte el 50% de la energía a las baterías que hayan y el resto a los distintos dispositivos de energía que hayan, y el de consumo es más que todo en la de "navío" donde la velocidad determina el consumo de la bateria y cada vez que aumenta, la batería disminuye más la energía al multiplicar la velocidad por 0.10 y eso es el consumo.
 
 Modelo: https://miro.com/welcomeonboard/dWRuNGNqZFJWTEszbjNnTHU3cllCZzlhY3Q2NDVTRGZwQUlYeUhKUm9qZEhhU1N3UFVUOVc4a2lZaGx5NmlJM3wzNDU4NzY0NTMwNzcxMDYwNjU1?share_link_id=51618535727
